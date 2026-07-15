@@ -1,0 +1,17 @@
+Trace,Policy,Hits,Misses,HitRate
+traces/sequential.txt,LRU,0,1024,0
+traces/sequential.txt,FIFO,0,1024,0
+traces/sequential.txt,Random,0,1024,0
+traces/sequential.txt,Adaptive(Random),0,1024,0
+traces/random.txt,LRU,0,4000,0
+traces/random.txt,FIFO,0,4000,0
+traces/random.txt,Random,2461,1539,0.61525
+traces/random.txt,Adaptive(Random),2202,1798,0.5505
+traces/looping.txt,LRU,24,8,0.75
+traces/looping.txt,FIFO,24,8,0.75
+traces/looping.txt,Random,24,8,0.75
+traces/looping.txt,Adaptive(LRU),24,8,0.75
+traces/matrix.txt,LRU,0,32,0
+traces/matrix.txt,FIFO,0,32,0
+traces/matrix.txt,Random,0,32,0
+traces/matrix.txt,Adaptive(LRU),0,32,0
